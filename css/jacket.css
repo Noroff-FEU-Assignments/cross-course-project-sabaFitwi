@@ -1,0 +1,13 @@
+.jacket-page{
+    display: flex;
+    grid-template-rows: 1fr;
+   
+}
+.jacket-page h1{
+    grid-column: -1/1;
+    text-align: center;
+}
+.category{
+    flex-wrap: wrap;
+    
+}
