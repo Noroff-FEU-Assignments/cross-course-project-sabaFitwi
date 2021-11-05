@@ -1,15 +1,16 @@
-.banner-cont h1{
-    color: #fff;
-    font-size: 40px;
-    margin:0px 0px 30px 30px;
-      
+.banner-h1 h1{
+  color: #fff;
+  font-size: 40px;
+  margin:0px 0px 30px 30px;     
+}
+.h1-hightlight{
+ color:#F0C14B;
+ font-size: 50px;
+}
+.h1-wrap{
+  display: block;
 }
 
-.banner-image span{
-    color:#F0C14B;
-    font-size: 50px;
-    
-}
 
 .banner-image{
  background-image:linear-gradient(rgba(0, 0, 0, 0.42)50%,rgba(0,0,0,0.42)50%), url(../images/background.jpg);
@@ -21,7 +22,7 @@
  position: relative;
 }
 
-.banner-cont{
+.banner-h1{
     position: absolute;
     text-align: center;
     top: 100px;

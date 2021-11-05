@@ -16,17 +16,18 @@
         font-size: 30px;
     }
 
-    .banner-cont h1{
+    .banner-h1 h1{
   
         font-size: 50px;
         margin-left: 30px;
         margin-bottom: 30px;    
     }
-    .banner-image span{
+    .h1-hightlight{
+         
          font-size: 60px;
         
     }
-    .banner-cont{
+    .banner-h1{
         position: absolute;
         text-align: center;
         top: 100px;
@@ -114,16 +115,16 @@
         margin-top: 60px;
     }
 
-    .banner-cont h1{
+    .banner-h1 h1{
         font-size: 65px;
         margin-left: 30px;
         margin-bottom: 30px;    
     }
-    .banner-image span{
+    .h1-hightlight{
           font-size: 70px;
         
     }
-    .banner-cont{
+    .banner-h1{
         position: absolute;
         text-align: center;
         top: 100px;
