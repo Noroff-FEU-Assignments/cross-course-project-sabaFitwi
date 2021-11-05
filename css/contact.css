@@ -1,0 +1,36 @@
+
+input, textarea, select{
+
+    border: 1px solid #707070;
+    margin: 5px 10px 15px 0;
+    padding: 5px;
+    width: 400px;
+    }
+    
+    textarea{
+        min-height:100px;
+    }
+.contact{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.contact-page > *{
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    margin-top:70px ;
+    gap: 200px;
+    border: 1px solid #707070;
+    
+   }
+;
+.contact-page_form{
+    display:flex;
+}
+.contact-page_form > *{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}

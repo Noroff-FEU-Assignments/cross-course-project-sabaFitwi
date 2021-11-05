@@ -1,0 +1,161 @@
+/*mobile style*/
+@media (min-width: 400px){
+
+
+}
+
+/*tablet style*/
+@media (min-width: 600px){
+    .all-product{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%; 
+        margin: auto;
+        margin-top: 60px;
+    }
+    .all-product h2{
+        font-size: 30px;
+    }
+
+    .banner-cont h1{
+  
+        font-size: 50px;
+        margin-left: 30px;
+        margin-bottom: 30px;    
+    }
+    .banner-image span{
+         font-size: 60px;
+        
+    }
+    .banner-cont{
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        left: 50px;
+           
+    }
+   
+    img.logo{
+       height: 70px;
+    }
+
+    header{
+        
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center; 
+        border-bottom: 0.5px solid #707070; 
+        margin: 0px;
+         
+        
+      }
+      .nav-wrapper-tablet{
+          display: flex;
+          flex-direction: row;
+          justify-content:space-between ;
+          align-items: center;
+          width: 600px;
+
+      }
+      nav {
+        display: flex;
+        position: static;
+           
+     }
+      
+  nav ul {
+    display: flex;
+    flex:1;
+    margin: 0px;
+    
+   
+  }
+  nav li a{
+     font-size: 0.9em;
+ 
+  }
+ .icons-nav .icon-bars .fas{
+    padding: 20px;
+    
+}
+.icons-nav {
+      
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+       
+}
+.home-bar{
+    display: none;
+    
+}
+
+ header label {
+        display: none;
+      }
+
+     
+   
+}
+
+/*desktop style*/
+@media (min-width: 800px){
+
+    .all-product{
+      
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1000px;
+        align-items: center;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .banner-cont h1{
+        font-size: 65px;
+        margin-left: 30px;
+        margin-bottom: 30px;    
+    }
+    .banner-image span{
+          font-size: 70px;
+        
+    }
+    .banner-cont{
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        left: 80px;
+           
+    }
+    header
+        {display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-around; 
+        border-bottom: 0.5px solid #707070; 
+     
+ 
+      }
+      .nav-wrapper-tablet{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between ;
+        align-items: center;
+        scroll-margin-left: 30px;
+
+    }
+      nav li a{
+        font-size: 1.0em;
+    
+     }
+     
+      }
+      img.logo{
+        width: 100%;
+        object-fit: contain;
+        height: 85px;
+        
+    }
