@@ -38,48 +38,47 @@ height: 60px;
 margin-bottom: 10px;
 }
 
-
+   
 
 nav {
-    margin-left: 40px;
-    position: fixed;
-    top: 120px;
-    background: #fff;
-    z-index: 1000;
-    right: 200px;
-    left: 0px;
-    display: none;
+ margin-left: 40px;
+ position: fixed;
+ top: 120px;
+ background: #fff;
+ z-index: 1000;
+ right: 200px;
+ left: 0px;
+ display: none;
    
 }
    
 nav ul{
-    padding: 10px;      
+ padding: 10px;      
 }
 
 nav ul li{
-    display: block;  
-    padding: 20px; 
-       
+ display: block;  
+ padding: 20px;       
 }
+
 ul li a:hover{
-    color:#4B7AF0 ;
+ color:#4B7AF0 ;
 }
 .icons-nav{
-    margin: 5px;
-   
-      display: flex;
-      flex: 2;
-      flex-direction:row;
-      justify-content: space-between;
-      width:100%;
-      align-items: center;
-     
+ margin: 5px;
+ display: flex;
+ flex: 2;
+ flex-direction:row;
+ justify-content: space-between;
+ width:100%;
+ align-items: center; 
   }
-   .icon-bars{
-      display: flex;
-      flex-direction: row;
-      flex:1;
-      justify-content: space-between;
+
+.icon-bars{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
     }
 
  #hamburger-menu{
@@ -88,28 +87,24 @@ ul li a:hover{
 #hamburger-menu:checked ~ nav{
     display: inline-block;
 }
-.hamburger-bar{
-    margin-left:10px ;
-    margin-right: 150px;
-}
-.icon-bars, .hamburger-bar .fas{
+
+.icon-bars, .fas{
     
     font-size: 20px;
 }
 .icon-bars .fas{
-    padding: 20px;
-    
+    padding: 20px;   
 }
+
 .icon-bars .fas:hover{
     color: #4B7AF0;
 }
 
- 
 /* Links*/
- a{
-     text-decoration: none;
-     color: #000;
-     font-family: Arial, Helvetica, sans-serif;
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
 .active{
@@ -117,9 +112,7 @@ ul li a:hover{
     color: #4B7AF0;
 }
  
-
 /* buttons*/
-
 .shop-button{
     background: #F0C14B;
     color: #000;
@@ -139,6 +132,7 @@ ul li a:hover{
     color: #000;
     border: 3px solid #F0C14B;
 }
+
 .cart{
     background-color: #103444;
     color: #fff;
@@ -161,16 +155,7 @@ ul li a:hover{
     border-radius: 5px;
     background-color: #fff;
     color:#103444;
-
 }
-
-
-
- 
-
-/*contact*/
-
-
 
 footer{
     display: flex;
@@ -182,7 +167,7 @@ footer{
     background: url(../images/footer-texture.png);
     margin-top: 100px;
     padding: 10px;
-    }
+}
 
 
 
