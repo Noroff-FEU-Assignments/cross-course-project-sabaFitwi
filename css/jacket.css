@@ -1,13 +1,45 @@
 .jacket-page{
     display: flex;
-    grid-template-rows: 1fr;
-   
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 2%;
 }
 .jacket-page h1{
-    grid-column: -1/1;
     text-align: center;
+   
 }
-.category{
+.jacket-page_wrapper{
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: space-around;   
+}
+aside.category {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 40px;
+    background-color: #fff;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0 40px;
+ }
+
+.category li{
+    padding: 10px 0px;
+}
+.category ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+    align-items: left;
+    line-height: 2.125em;
     flex-wrap: wrap;
-    
+    list-style-type: none; 
 }
+.all-product_jacket{
+    grid-template-columns:repeat(3, 1fr); 
+    margin:0px;
+}
+.products_card img{
+   height: 600px;
+  }

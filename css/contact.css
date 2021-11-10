@@ -7,30 +7,39 @@ input, textarea, select{
     width: 400px;
     }
     
-    textarea{
-        min-height:100px;
+textarea{
+    min-height:100px;
     }
 .contact{
-    max-width: 1000px;
-    margin: auto;
-
+  margin: 30px auto;
+  
 }
-
-.contact-page > *{
-    justify-content: center;
+.contact h1{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.contact-page_wrapper{
     display: flex;
     flex: 1;
-    margin-top:70px ;
-    gap: 200px;
-    border: 1px solid #707070;
-    
-   }
-;
-.contact-page_form{
-    display:flex;
+    box-shadow: 0 5px 20px 0 rgba(0,0, 0, 25%);
+  }
+section.contact-page_detail{
+    display: block;
+    padding: 60px 30px;
+    background: #fff; 
+    border: 1px solid #f1f1f1; 
+}
+.contact-icon{
+    padding-right: 20px;
 }
 .contact-page_form > *{
     display: flex;
     flex:1;
     flex-direction: column;
+    padding: 30px;
+    background: #e4e4e4;
 }
+span.important{
+    color: #ff0000
+}
+

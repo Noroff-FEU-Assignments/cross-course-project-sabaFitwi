@@ -1,14 +1,15 @@
 /*mobile style*/
 @media (min-width: 400px){
-
-
+   
 }
+
+    
 
 /*tablet style*/
 @media (min-width: 600px){
     .all-product{
         grid-template-columns: repeat(2, 1fr);
-        width: 100%; 
+        width: 90%; 
         margin: auto;
         margin-top: 60px;
     }
@@ -16,23 +17,21 @@
         font-size: 30px;
     }
 
-    .banner-h1 h1{
+ .banner-h1 h1{
   
-        font-size: 50px;
+    font-size: 30px;
         margin-left: 30px;
         margin-bottom: 30px;    
     }
-    .h1-hightlight{
-         
-         font-size: 60px;
-        
-    }
-    .banner-h1{
+.banner-h1{
         position: absolute;
         text-align: center;
-        top: 100px;
-        left: 50px;
-           
+        top: 40px;
+        left: 80px;    
+    }
+    span.h1-hightlight{
+        font-size: 40px;
+        display:inline;
     }
    
     img.logo{
@@ -46,31 +45,25 @@
         flex-direction: column;
         align-items: center;
         justify-content:center; 
-        border-bottom: 0.5px solid #707070; 
         margin: 0px;
-         
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.025); 
         
       }
-      .nav-wrapper-tablet{
-          display: flex;
-          flex-direction: row;
-          justify-content:space-between ;
-          align-items: center;
-          width: 600px;
-
-      }
-      nav {
-        display: flex;
-        position: static;
-           
-     }
+.nav-wrapper-tablet{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 600px;
+   }
+nav {
+  display: flex;
+  position: static;
+ }
       
-  nav ul {
+nav ul {
     display: flex;
     flex:1;
-    margin: 0px;
-    
-   
+    margin: 0px; 
   }
   nav li a{
      font-size: 0.9em;
@@ -80,83 +73,79 @@
     padding: 20px;
     
 }
-.icons-nav {
-      
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        width: 100%;
-        align-items: center;
-        flex-wrap: wrap;
-       
+.icons-nav {      
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;       
 }
 .home-bar{
-    display: none;
-    
+    display: none;   
 }
-
  header label {
-        display: none;
-      }
+     display: none;
+  }
+.contact-page_wrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    box-shadow: 0 5px 20px 0 rgba(0,0, 0, 25%);
+  }
+  }
 
-     
-   
-}
+/*...contact us..*/
+
+
 
 /*desktop style*/
 @media (min-width: 800px){
 
-    .all-product{
+.all-product{
       
-        grid-template-columns: repeat(4, 1fr);
-        max-width: 1000px;
-        align-items: center;
-        margin: auto;
-        margin-top: 60px;
-    }
-
-    .banner-h1 h1{
-        font-size: 65px;
-        margin-left: 30px;
-        margin-bottom: 30px;    
-    }
-    .h1-hightlight{
-          font-size: 70px;
-        
-    }
-    .banner-h1{
-        position: absolute;
-        text-align: center;
-        top: 100px;
-        left: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.banner-image{
+    height: 500px;
+}
+.banner-h1 h1{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;    
+}
+span.h1-hightlight{
+    font-size: 60px;
+    display:inline;
+}
+.banner-h1{
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 80px;
            
     }
-    header
-        {display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:space-around; 
-        border-bottom: 0.5px solid #707070; 
-     
- 
-      }
-      .nav-wrapper-tablet{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between ;
-        align-items: center;
-        scroll-margin-left: 30px;
-
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around; 
     }
-      nav li a{
-        font-size: 1.0em;
-    
-     }
-     
-      }
-      img.logo{
-        width: 100%;
-        object-fit: contain;
-        height: 85px;
-        
+.nav-wrapper-tablet{
+   gap: 30px;
+   
     }
+nav li a{
+   font-size: 20px;
+}
+img.logo{
+    width: 100%;
+    object-fit: contain;
+    height: 100px;   
+    }
+}
+   

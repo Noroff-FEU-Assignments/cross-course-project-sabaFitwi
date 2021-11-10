@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Best outdoor activity jackets from rainydays">
-    <title>RainyDays | Home</title>
+    <meta name="description" content="Enjoy our comfortable Hiking jackets from rainydays">
+    <title>RainyDays | Hiking Jacket</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet"/>
     <link href="../css/index.css" rel="stylesheet"/>
+    <link href="../css/hiking-jacket.css" rel="stylesheet"/>
     <link href="../css/media.css" rel="stylesheet"/>
     <link href="../css/contact.css" rel="stylesheet"/>
    
@@ -18,9 +19,7 @@
 </head>
 <body>
 <header> 
-     
-          <a href="../index.html"><img class="logo" src="images/RainyDays_Logo-1.png" alt="logo of the website"></a>  
-        
+          <a href="../index.html"><img class="logo" src="../images/RainyDays_Logo-1.png" alt="logo of the website"></a>  
         <div class="nav-wrapper-tablet">
           <nav>    
                <ul>
@@ -30,93 +29,54 @@
                     <li><a href="../about.html">About</a></li>
                     <li><a href="../contact.html">Contact</a></li>
                 </ul>  
-             
             </nav> 
             <div class="icons-nav">
-               
-                <div class="hamburger-bar">
+              <div class="hamburger-bar">
                 <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="hamburger-menu">
-                </div>
-            
-           
-                <div class="icon-bars">
+              </div>
+              <div class="icon-bars">
                 <div class="home-bar"><a href=""><i class="fas fa-home"></i></a></div>
-                <a href=""><i class="fas fa-search"></i></a> 
-                <a href=""><i class="fas fa-shopping-cart"></i></a> 
+                 <a href=""><i class="fas fa-search"></i></a> 
+                 <a href=""><i class="fas fa-shopping-cart"></i></a> 
                 </div>
-           
-             </div>  
+              </div>  
             </div>  
          
     </header>
-    <main>
-        <section>
-            <h1>Get Up to 30%  off<br>New Arrival</h1>
+    <main class="product-detail">
+        <section class="product-detail_image">
+          <img src="../images/W2.jpg" alt="Hiking Jackets for Men's" class="product_small-image" />
+          <div class="single-product">
+            <img src="../images/W2.jpg" alt="Hiking Jacket" class="product_small-image"/>
+            <img src="../images/W2.jpg" alt="Hiking Jacket" class="product_small-image"/>
+            <img src="../images/W2.jpg" alt="Hiking Jacket" class="product_small-image"/>
+            <img src="../images/W2.jpg" alt="Hiking Jacket" class="product_small-image"/>
+         </div>
         </section>
-
-        <section class="all-product">
-             <h2>Best Collection of This Month</h2>
-             
-               
-                    <div class="products">
-                            <img src="../images/W1.jpg" alt="">
-                            <h3>Hiking Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-                    <div class="products">
-                            <img src="../images/W1.jpg" alt="">
-                            <h3>Ski Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-                    <div class="products">
-                            <img src="../images/W1.jpg" alt="">
-                            <h3>Rain Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-            
-             
-                    <div  class="products">
-                            <img src="../images/W1.jpg" alt="">
-                            <h3>Ski Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-                    <div  class="products">
-                            <img src="../images/W1.jpg" alt="">
-                            <h3>Hiking Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-                    <div class="products">
-                            <img src="../images/W1.jpg"alt="">
-                            <h3>Ski Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-
-                    <div class="products">
-                                <img src="../images/W1.jpg" alt="">
-                                <h3>Rain Jacket</h3>
-                                <p>500kr</p>
-                                <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                    </div>
-                    <div class="products">
-                            <img src="../images/W1.jpg" alt="">
-                            <h3>Ski Jacket</h3>
-                            <p>500kr</p>
-                            <a href="pages/shopping-cart.html" class="cart">Add to cart</a>
-                     </div>
-
+        <section class="product-specific_detail quantity">
+          <h1>Hiking Jacket</h1>
+          <p>$500</p>
+          <label for="size">Select size:</label>
+          <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="x-large">XL</option>
+          </select>
+          <label for="quantity">Qty:</label>
+          <input  type="number" value="1">
+          <a href="#" class="cart">Add to cart</a>
         </section>
-    
-    </main>
-    <footer>Copy Right &copy;</footer>
+      </main>
+      <footer>
+        <h4>Copy Right &copy;</h4> 
 
-
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook-square fa-customize"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-customize"></i></a>
+        </div>
+    </footer>
    
     
 </body>

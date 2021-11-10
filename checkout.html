@@ -14,14 +14,16 @@
     <link href="css/media.css" rel="stylesheet"/>
     <link href="css/hiking-jacket.css" rel="stylesheet"/>
     <link href="css/contact.css" rel="stylesheet"/>
+    <link href="css/jacket.css" rel="stylesheet"/>
+    <link href="css/checkout.css" rel="stylesheet"/>
+    <link href="css/success.css" rel="stylesheet"/>
    
     <script src="https://kit.fontawesome.com/b3766b9c07.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header> 
-               <a href="index.html"><img class="logo" src="images/RainyDays_Logo-1.png" alt="logo of the website"></a>  
+            <a href="index.html"><img class="logo" src="images/RainyDays_Logo-1.png" alt="logo of the website"></a>  
         
-    
         <div class="nav-wrapper-tablet">
                 <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="hamburger-menu">
@@ -47,47 +49,44 @@
             </div>  
          
     </header>
-    <main class="contact">
-        <h1>Contact Us</h1>
-
-    <div class="contact-page_wrapper">
-        
-        <section class="contact-page_detail">
-                <h2>Let's Contact</h2>
-                <p><i class="fas fa-phone-square-alt contact-icon"></i> 001-234-567</p>
-                <p><i class="fas fa-envelope contact-icon"></i>info@rainydays.com</p>
-        </section>
-        <section class="contact-page_form" >
-                <form action="form-success.php" method="POST"> 
-                    <legend>
-                        <h2> Send us a Message</h2>
-                    </legend>
-                            <label for="name">First and last Name<span class="important">*</span></label>
-                            <input type="text" name="name" id="name" class="form">
-                            <label for="phone">Phone Number<span class="important">*</span></label>
-                            <input type="text" name="phone" id="phone" class="form">
-                            <label for="name">Email Address<span class="important">*</span></label>
-                            <input type="text" name="email" id="email" class="form">
-
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message"></textarea>  
-                            <input type="submit" value="Submit" class="cart">
-                </form>         
-            </section>            
-        </div> 
-    
-    </main>
-    <footer>
-        <h4>Copy Right &copy;</h4> 
-
-        <div class="icons">
-            <a href="#"><i class="fab fa-facebook-square fa-customize"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-customize"></i></a>
+    <main class="main-checkout">
+        <div class="main-checkout_h1">
+            <h1>Checkbox</h1>
+            <p>1 item</p>
         </div>
-    </footer>
-
-
-   
-    
-</body>
-</html>
+    <section  class="shipping-details_wrapper">
+        
+      <div class="checkout-product-image">
+          <img src="../images/W2.jpg" alt="Hiking Jackets for Men's" /> 
+      </div>
+    <div class="checkout-product_size">     
+           <p>Hiking Jacket</p>
+           <p>Size : S</p>        
+    </div>
+     <div class="quantity">
+          <label for="quantity">Qty:</label>
+          <input  type="number" value="1">
+     </div>
+      <div class="checkout-product_price">
+        <p>$500</p>
+     </div>
+    </section>
+    <section class="order-summary">
+        
+            <h1>Order summary</h1>           
+            <div class="total">
+                <p>Sub Total</p>
+                <p>500kr</p>               
+            </div>
+            <div class="total">
+                <p>Estimated Delivery</p>
+                <p>0Kr</p>                
+            </div>            
+            <div class="total">
+                <p>Estimated Total</p>
+                <p>500Kr</p>  
+                <a href="#" class="cart payment">Pay Now</a>   
+                       
+            </div>   
+        </section>      
+      </main>
