@@ -7,6 +7,7 @@
 
 /*tablet style*/
 @media (min-width: 600px){
+
     .all-product{
         grid-template-columns: repeat(2, 1fr);
         width: 90%; 
@@ -93,9 +94,12 @@ nav ul {
     flex-direction: column-reverse;
     box-shadow: 0 5px 20px 0 rgba(0,0, 0, 25%);
   }
+  /**checkout page**/
+ 
+}
   }
 
-/*...contact us..*/
+
 
 
 
