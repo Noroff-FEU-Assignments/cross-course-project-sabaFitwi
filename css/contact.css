@@ -20,8 +20,9 @@ textarea{
 }
 .contact-page_wrapper{
     display: flex;
+    flex-direction: column-reverse;
     flex: 1;
-    box-shadow: 0 5px 20px 0 rgba(0,0, 0, 25%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 section.contact-page_detail{
     display: block;

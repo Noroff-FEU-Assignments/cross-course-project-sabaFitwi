@@ -1,0 +1,26 @@
+.about{
+    max-width: 1500px;
+    margin:60px auto;
+    background: #fff;
+    height:70vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about h1{
+    text-align: center;
+    margin: 40px;
+}
+.about-page_wrapper{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+.about_picture img{
+    height: 300px; 
+    margin: 30px; 
+
+}
+.aboutUs-text{
+    padding: 20px;
+    width: 500px;
+    text-justify:center;
+}

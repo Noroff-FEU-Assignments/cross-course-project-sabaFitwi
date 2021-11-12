@@ -5,6 +5,7 @@
 }
 .main-checkout h1{
     text-align: center;  
+    margin-bottom: 40px;
 }
 .main-checkout p{
     text-align: left;
@@ -26,7 +27,8 @@
     padding: 0 40px; 
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     height: 550px;
-    margin-left: 40px;    
+    margin-left: 40px; 
+    
 }
 
 .title{
@@ -36,6 +38,7 @@
     text-transform: uppercase;
     font-weight: 200;
     margin-top:30px;
+   
 }
 .checkout-product-image {
     width: 400px;
@@ -87,7 +90,8 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-right: 40px;
     height:500px;
-    
+    position:sticky;
+   
 
 }
 .total{

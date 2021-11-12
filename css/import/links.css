@@ -43,6 +43,8 @@ a{
     transition: 0.3s ease;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
+    width:max-content;
 }
 
 .cart:hover{
