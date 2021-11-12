@@ -1,12 +1,12 @@
+
 .jacket-page{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin-top: 2%;
+    margin-top: 10px;
 }
 .jacket-page h1{
     text-align: center;
-   
 }
 .jacket-page_wrapper{
     display: flex;

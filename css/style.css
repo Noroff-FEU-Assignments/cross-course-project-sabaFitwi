@@ -1,4 +1,4 @@
-
+@import "import/links.css";
 
 body {
     font-family: 'Poppins', sans-serif, arial; 
@@ -7,18 +7,7 @@ body {
     display: grid;
     width:100%;
     background-color: #f2f2f2;
-  
   }
- 
-   .fa-customize{
-    color:#fff;
-    margin:5px;
-    font-size: 30px;
-    margin-top: 0px;
-  }
- .fa-customize:hover{
-     color: #4B7AF0;
- }
 
 header{
   display: flex;
@@ -32,16 +21,12 @@ header{
 /* logo image*/
 
 
-
-
 img.logo{
 width: 100%;
 object-fit: contain;
 height: 60px;
 margin-bottom: 10px;
 }
-
-   
 
 nav {
  margin-left: 40px;
@@ -51,21 +36,19 @@ nav {
  z-index: 1000;
  right: 200px;
  left: 0px;
- display: none;
-   
+ display: none;   
 }
    
 nav ul{
  padding: 10px;      
 }
 
-nav ul li{
+nav li{
  display: block;
  padding: 20px;
-
 }
 
-ul li a:hover{
+nav a:hover{
  color:#4B7AF0 ;
 }
 .icons-nav{
@@ -105,59 +88,8 @@ ul li a:hover{
 }
 
 /* Links*/
-a{
-    text-decoration: none;
-    color: #000;
- }
 
-.active{
-    text-decoration: underline;
-    color: #4B7AF0;
-}
- 
-/* buttons*/
-.shop-button{
-    background: #F0C14B;
-    color: #000;
-    border: 1px solid #707070;
-    border-radius: 5px;
-    font-size: 1em;
-    text-transform: uppercase;
-    padding: 10px 40px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.shop-button:hover{
-    background-color: #fff;
-    color: #000;
-    border: 3px solid #F0C14B;
-}
-
-.cart{
-    background-color: #103444;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 5px 50px;
-    font-weight: none;
-    margin: 10px;
-    border: 1px solid #103444;
-    border-radius: 5px;
-    width: 100px;
-     cursor: pointer;
-    transition: 0.3s ease;
-    display: flex;
-    justify-content: center;
-}
-
-.cart:hover{
-    border: 3px solid #103444;
-    border-radius: 5px;
-    background-color: #fff;
-    color:#103444;
-}
+/*...footer..*/
 
 footer{
     display: flex;
@@ -170,6 +102,7 @@ footer{
     margin-top: 100px;
    
 }
+
 
 
 
