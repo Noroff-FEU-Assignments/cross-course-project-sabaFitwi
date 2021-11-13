@@ -101,7 +101,26 @@ nav ul {
     flex-direction:row;
   }
  
- 
+ /**aboutus page**/
+ .about-page_wrapper{
+    display: flex;
+    flex-direction:row;
+
+   
+}
+/**  jacket/products page**/
+.jacket-page_wrapper{
+    display: flex;
+    flex-direction:row;
+     
+}
+.jacket-page_wrapper .all-product_jacket{
+    grid-template-columns:repeat(2, 1fr); 
+    margin:40px;
+}
+.products_card img{
+    height: 600px;
+   }
 }
   
 
@@ -162,5 +181,10 @@ img.logo{
         display: flex;  
         flex-direction:row;
       }
+}
+/**  jacket/products page**/
+.jacket-page_wrapper .all-product_jacket{
+    grid-template-columns:repeat(3, 1fr); 
+    margin:40px;
 }
    
