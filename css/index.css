@@ -31,7 +31,13 @@ position: relative;
      
 }
 
-
+.all-product{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%; 
+  margin: auto;
+  gap: 10px;   
+}
 .all-product h2 {
   grid-column: -1/1;
   text-align: center;

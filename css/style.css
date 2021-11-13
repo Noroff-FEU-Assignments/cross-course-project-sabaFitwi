@@ -25,12 +25,16 @@ header{
   background: var(--primary-color);
 
 }
+
+img{
+    width: 100%;
+    object-fit: contain;
+         
+  }
 /* logo image*/
 
 
 img.logo{
-width: 100%;
-object-fit: contain;
 height: 60px;
 margin-bottom: 10px;
 }
@@ -95,18 +99,8 @@ nav a:hover{
     color: var(--active-color);
 }
 /*..product image, price  and detail ..*/
-.all-product{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 90%; 
-    margin: auto;
-    grid-gap: 10px;   
-  }
-.all-product img {
-    width: 100%;
-    object-fit: contain;
-         
-  }
+
+
 .products {
     display: flex;
     flex: 1;
