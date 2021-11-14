@@ -10,27 +10,6 @@
 
 /*..header..*/
 
-.banner-h1 h1{
-  
-    font-size: 30px;
-        margin-left: 30px;
-        margin-bottom: 30px;    
-    }
-.banner-h1{
-        position: absolute;
-        text-align: center;
-        top: 40px;
-        left: 80px;    
-    }
-    span.h1-hightlight{
-        font-size: 40px;
-        display:inline;
-    }
-   
-    img.logo{
-       height: 70px;
-    }
-
     header{
         
         display: flex;
@@ -42,6 +21,9 @@
         box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.025); 
         
       }
+      img.logo{
+        height: 70px;
+     }
 .nav-wrapper-tablet{
     display: flex;
     justify-content:space-between ;
@@ -81,6 +63,22 @@ nav ul {
      display: none;
   }
 /*..homepage..*/
+.banner-h1 h1{
+  
+    font-size: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;    
+    }
+.banner-h1{
+        position: absolute;
+        text-align: center;
+        top: 40px;
+        left: 80px;    
+    }
+    span.h1-hightlight{
+        font-size: 40px;
+        display:inline;
+    }
 
 
     .all-product{
@@ -94,20 +92,7 @@ nav ul {
     }
 
 
-  /*...contact page..*/
 
-.contact-page_wrapper{
-    display: flex;  
-    flex-direction:row;
-  }
- 
- /**aboutus page**/
- .about-page_wrapper{
-    display: flex;
-    flex-direction:row;
-
-   
-}
 /**  jacket/products page**/
 .jacket-page{
     display: flex;
@@ -142,6 +127,8 @@ aside.jacket-category {
 .products_card img{
     height: 600px;
    }
+/**..checkout page..**/
+
 }
   
 
@@ -198,10 +185,7 @@ img.logo{
     height: 100px;   
     }
     
-.contact-page_wrapper{
-        display: flex;  
-        flex-direction:row;
-      }
+
 
 /**  jacket/products page**/
 .jacket-category ul{
@@ -244,5 +228,48 @@ aside.jacket-category {
     grid-template-columns:repeat(3, 1fr); 
     margin:40px;
 }
+/*...contact page..*/
+.contact-page_wrapper {
+    display: flex;  
+    flex-direction:row;
+  }
+section.contact-page_detail{
+    width:400px;
+  }
+  .contact-page_form {
+    width:500px;}
+/**..aboutus page..**/
+.about {
+    max-width: 1500px;
+    margin:60px auto;
+    background: #fff;
+    min-height:70vh;
+    box-shadow: var(--box-shadow-large); 
 }
-   
+.about-page_wrapper {
+    flex-direction:row;
+    justify-content: space-between; 
+}  
+
+.about_picture {
+      margin: 0 0 20px 50px;
+    
+}
+/** product detail (hiking-jacket page)**/
+.product-detail{
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin:70px auto; 
+    background: #fff;
+    padding: 70px;
+    box-shadow: var(--box-shadow-small);
+}
+.product-detail > *{    
+    margin-bottom: 0px;
+}
+.product-specific_detail{
+    gap: 15px;
+}
+
+}   

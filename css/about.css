@@ -1,27 +1,27 @@
-.about{
+.about {
     max-width: 1500px;
     margin:60px auto;
     background: #fff;
-    min-height:70vh;
+    
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.about h1{
+.about h1 {
     text-align: center;
     margin: 40px;
 }
-.about-page_wrapper{
+.about-page_wrapper {
     display: flex;
     flex-direction: column;
     flex: 1;
     gap: 10px;
 }
-.about_picture img{
+.about_picture img {
     height: 300px; 
-    margin: 30px; 
+     object-fit: contain;
 
 }
-.aboutUs-text{
-    padding: 20px;
-    width: 500px;
-    text-justify:center;
+.aboutUs-text {
+    padding: 20px 50px;
+    width: 370px;
+    text-align: justify;
 }
