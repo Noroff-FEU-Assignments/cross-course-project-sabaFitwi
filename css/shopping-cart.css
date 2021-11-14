@@ -1,0 +1,31 @@
+.shopping-cart{
+    display: flex;
+    flex-direction: column;
+}
+.shopping-cart_checkbox{
+   margin-top: 250px;
+}
+.shopping-cart_checkbox2{
+    margin-top: 150px;
+}
+.shopping-cart-button{
+  display: flex;
+ flex-direction: column;
+ gap: 10px;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 50px;
+ 
+
+}
+.checkout-now{
+    padding: 10px 53px;   
+    
+}
+.continue-shopping{
+    width: max-content;
+    text-transform: uppercase;
+    padding: 10px 40px;
+}
+
+

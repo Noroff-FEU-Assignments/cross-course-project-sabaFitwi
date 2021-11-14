@@ -1,0 +1,161 @@
+@import "import/links.css";
+@import "import/variable.css";
+
+body {
+    font-family: var(--text-paragraph), sans-serif arial; 
+    min-height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+h1,
+h2{font-family: var(--text-heading), sans-serif, arial;
+   
+}
+
+
+header{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+         
+  }
+/* logo image*/
+
+
+img.logo{
+height: 60px;
+margin-bottom: 10px;
+}
+/*..navigation..*/
+
+nav {
+ margin-left: 40px;
+ position: fixed;
+ top: 120px;
+ background: var(--primary-color);
+ z-index: 1000;
+ right: 200px;
+ left: 0px;
+ display: none;   
+}
+   
+nav ul{
+ padding: 10px;      
+}
+
+nav li{
+ display: block;
+ padding: 20px;
+}
+
+nav a:hover{
+ color:var(--active-color);
+}
+.icons-nav{
+ margin: 5px;
+ display: flex;
+ flex: 2;
+ flex-direction:row;
+ justify-content: space-between;
+ width:100%;
+ align-items: center; 
+  }
+
+.icon-bars{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
+    }
+
+ #hamburger-menu{
+    display: none;
+}
+#hamburger-menu:checked ~ nav{
+    display: inline-block;
+}
+
+.icon-bars, .fas{
+    
+    font-size: 20px;
+}
+.icon-bars .fas{
+    padding: 20px;   
+}
+
+.icon-bars .fas:hover{
+    color: var(--active-color);
+}
+/*..product image, price  and detail ..*/
+
+
+.products {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: #fff;
+   padding-bottom: 15px;
+   box-shadow: var(--box-shadow-small);
+  }
+  
+  .products h3, .products p {
+    font-size: 18px;
+    text-align:center;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif ,arial;
+  }
+  .products p {
+     font-size: 26px;
+  }
+/** input dimensions..**/
+ #size, #quantity{
+    display: block; 
+    width: 50px;
+    height: 40px;  
+    border: 1px solid #707070;
+    border-radius:5px;
+    font-size:  18px;
+  }
+input:focus{
+    outline: none;
+}
+
+/*...footer..*/
+
+footer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+    color:#fff;
+    background: url(../images/footer-texture.png);
+    margin-top: 100px;
+   
+}
+
+
+
+
+   
+   
+     
+
+
+
+
+
