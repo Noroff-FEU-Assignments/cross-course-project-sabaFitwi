@@ -1,27 +1,23 @@
 .about {
-    max-width: 1500px;
-    margin:60px auto;
-    background: #fff;
-    
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 90%;
+  padding: 0 10px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow-large);
 }
 .about h1 {
-    text-align: center;
-    margin: 40px;
+  text-align: center;
+  margin: 40px;
 }
 .about-page_wrapper {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
 }
 .about_picture img {
-    height: 300px; 
-     object-fit: contain;
-
+  object-fit: contain;
 }
 .aboutUs-text {
-    padding: 20px 50px;
-    width: 370px;
-    text-align: justify;
+  padding: 20px 50px;
+  text-align: justify;
 }
