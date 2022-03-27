@@ -2,15 +2,19 @@ input,
 textarea,
 select {
   border: 1px solid var(--gray-background);
-  margin: 5px 10px 15px 0;
+  margin: 5px 10px 0px 0;
   padding: 5px;
-  max-width: 400px;
+  min-width: 400px;
 }
 textarea {
   min-height: 100px;
 }
 .contact {
   margin: 30px auto;
+}
+
+label {
+  margin-top: 16px;
 }
 .contact h1 {
   text-align: center;
@@ -39,5 +43,22 @@ section.contact-page_detail {
   background: var(--product-color);
 }
 span.important {
+  display: none;
   color: #ff0000;
+}
+.contact-form-error {
+  display: none;
+  color: red;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  padding: 5px;
+}
+.cartSubmit {
+  align-items: center;
+}
+.invalid {
+  border: 1px solid red;
 }

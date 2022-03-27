@@ -29,6 +29,26 @@
       src="https://kit.fontawesome.com/b3766b9c07.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/b3766b9c07.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Hotjar Tracking Code for http://127.0.0.1:5502/index.html -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2856502, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
   <body>
     <header>
@@ -73,31 +93,47 @@
         <section class="contact-page_detail">
           <h2>Let's Contact</h2>
           <p>
-            <i class="fas fa-phone-square-alt contact-icon"></i> 001-234-567
+            <i class="fas fa-subject-square-alt contact-icon"></i> 001-234-567
           </p>
           <p><i class="fas fa-envelope contact-icon"></i>info@rainydays.com</p>
         </section>
         <section class="contact-page_form">
-          <form action="form-success.php" method="POST">
+          <form action=" " id="contactForm">
             <legend>
               <h2>Send us a Message</h2>
             </legend>
-            <label for="name"
-              >First and last Name<span class="important">*</span></label
-            >
-            <input type="text" name="name" id="name" class="form" />
-            <label for="phone"
-              >Phone Number<span class="important">*</span></label
-            >
-            <input type="text" name="phone" id="phone" class="form" />
-            <label for="name"
-              >Email Address<span class="important">*</span></label
-            >
+            <div class="success"></div>
+            <label for="name">First Name</label>
+            <input type="text" name="firstName" id="firstName" class="form" />
+            <div class="contact-form-error" id="firstName-error">
+              your must enter your first name
+            </div>
+
+            <label for="name">Last Name</label>
+            <input type="text" name="lastName" id="lastName" class="form" />
+            <div class="contact-form-error" id="lastName-error">
+              your must enter your last name
+            </div>
+
+            <label for="email">Email Address</label>
             <input type="text" name="email" id="email" class="form" />
+            <div class="contact-form-error" id="email-error">
+              your email address is invalid. (example@eg.com)
+            </div>
+
+            <label for="subject">Subject </label>
+            <input type="text" name="subject" id="subject" class="form" />
+            <div class="contact-form-error" id="subject-error">
+              your subject must have at least 4 character
+            </div>
 
             <label for="message">Message</label>
             <textarea id="message" name="message"></textarea>
-            <input type="submit" value="Submit" class="cart" />
+            <div class="contact-form-error" id="message-error">
+              your message must have at least 10 character
+            </div>
+
+            <button class="cart cartSubmit">submit</button>
           </form>
         </section>
       </div>
@@ -110,5 +146,6 @@
         <a href="#"><i class="fab fa-instagram fa-customize"></i></a>
       </div>
     </footer>
+    <script src="js/contact.js"></script>
   </body>
 </html>
