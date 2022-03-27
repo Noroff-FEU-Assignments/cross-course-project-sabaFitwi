@@ -1,31 +1,18 @@
-<<<<<<< HEAD
 const cartItems = JSON.parse(localStorage.getItem("cartNumber"));
 const shoppingCart = document.querySelector(".shopping-cart");
 const totalPrice = document.querySelector(".gran-total");
 const orderSummary = document.querySelector(".order-summary-wrapper");
 const subTotal = document.querySelector(".subtotal");
-=======
-const cartItems = JSON.parse(localStorage.getItem("cart"));
-
-const shoppingCart = document.querySelector(".shopping-cart");
-const orderSummary = document.querySelector(".order-summary-wrapper");
->>>>>>> 3e0154a5fae3a12c02952fdf79c812e49d73d9e7
 const headerOfCartPage = document.querySelector(".header-of-cart-page");
 const cart = document.querySelector(".cart-info");
 
 let subTotalPrice = 0;
 let totalUnitPrice = 0;
-<<<<<<< HEAD
 
 cartItems.forEach(function (item) {
   subTotalPrice += item.price;
   totalUnitPrice += item.price;
 
-=======
-cartItems.forEach(function (item) {
-  subTotalPrice += item.price;
-  totalUnitPrice += item.price;
->>>>>>> 3e0154a5fae3a12c02952fdf79c812e49d73d9e7
   shoppingCart.innerHTML += `
   <section class="shipping-details_wrapper">
             <div class="shopping-cart_checkbox">
@@ -55,19 +42,11 @@ cartItems.forEach(function (item) {
               <h3 class="title">price</h3>
               <a href="#"><i class="fa-regular fa-trash-can"></i></a>
               <p class="title-margin price-bold">US $${item.price}</p>
-<<<<<<< HEAD
               <p class="remove-cart" data-remove="${item.id}">Remove</p>
-=======
-              <p class="remove-cart" data-result="${item.id}">Remove</p>
->>>>>>> 3e0154a5fae3a12c02952fdf79c812e49d73d9e7
             </div>
           </section>
      
     `;
-<<<<<<< HEAD
-
-=======
->>>>>>> 3e0154a5fae3a12c02952fdf79c812e49d73d9e7
   headerOfCartPage.innerHTML = `<h1 class="header-of-cart-page">Shopping Cart <span class="inCart-number">(${cartItems.length})</span></h1>`;
   cart.innerHTML = `(${cartItems.length})`;
 });
