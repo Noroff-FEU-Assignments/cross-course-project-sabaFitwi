@@ -26,8 +26,8 @@ function contactValidation(e) {
   e.preventDefault();
   const firstNameLength = numberOfCharacters(firstName.value, 1);
   const lastNameLength = numberOfCharacters(lastName.value, 1);
-  const subjectLength = numberOfCharacters(subject.value, 4);
-  const messageLength = numberOfCharacters(message.value, 10);
+  const subjectLength = numberOfCharacters(subject.value, 1);
+  const messageLength = numberOfCharacters(message.value, 1);
   const emailCheck = emailValidation(email.value);
   const nameInput = document.querySelectorAll("input.form");
 

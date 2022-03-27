@@ -81,7 +81,13 @@
               <a href=""><i class="fas fa-home"></i></a>
             </div>
             <a href=""><i class="fas fa-search"></i></a>
-            <a href="checkout.html"><i class="fas fa-shopping-cart"></i></a>
+            <div class="cart-icon">
+              <a href="shopping-cart.html"
+                ><i class="fas fa-shopping-cart"
+                  ><span class="cart-info">0</span></i
+                ></a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -124,13 +130,13 @@
             <label for="subject">Subject </label>
             <input type="text" name="subject" id="subject" class="form" />
             <div class="contact-form-error" id="subject-error">
-              your subject must have at least 4 character
+              your subject must have filled
             </div>
 
             <label for="message">Message</label>
             <textarea id="message" name="message"></textarea>
             <div class="contact-form-error" id="message-error">
-              your message must have at least 10 character
+              your message must have filled
             </div>
 
             <button class="cart cartSubmit">submit</button>
